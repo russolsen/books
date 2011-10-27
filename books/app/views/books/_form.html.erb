@@ -22,6 +22,11 @@
   </div>
 
   <div class="field">
+    <%= f.label :publisher %><br />
+    <%= f.collection_select :publisher_id, Publisher.all, :id, :name  %>
+  </div>
+
+  <div class="field">
     <%= f.label :author %><br />
     <%= f.collection_select :author_id, Author.all, :id, :full_name  %>
   </div>

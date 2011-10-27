@@ -1,8 +1,19 @@
-== Books
+Books
 
-Books is a simple Rails application that I wrote for
-the RubyNewbie study group. It is meant to be similar
-to Dave Bock's menu item app, but instead of doing 
-menu items and categories it does books and authors
-and (for good measure) publishers.
+Books is a simple Rails application that I wrote for the RubyNewbie study group. It is meant to be similar to Dave Bock's menu item app, but instead of doing menu items and categories it does books and authors and (for good measure) publishers.
+
+To keep the application simple there is minimal nil checking, so you need to create at least one publisher and one author before you can create books.
+
+To create a publisher, go to http://localhost:3000/publishers and hit the New Publisher link.
+
+To create an author, go to http://localhost:3000/authors and hit the New Author link.
+
+Then you can start creating books at http://localhost:3000/books.
+
+
+Have fun!
+
+Russ
+
+
 

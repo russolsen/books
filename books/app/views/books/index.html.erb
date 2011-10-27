@@ -5,6 +5,7 @@
     <th>Title</th>
     <th>Description</th>
     <th>Author</th>
+    <th>Publisher</th>
     <th></th>
     <th></th>
     <th></th>
@@ -15,6 +16,7 @@
     <td><%= book.title %></td>
     <td><%= book.description %></td>
     <td><%= book.author.full_name %></td>
+    <td><%= book.publisher.name %></td>
     <td><%= link_to 'Show', book %></td>
     <td><%= link_to 'Edit', edit_book_path(book) %></td>
     <td><%= link_to 'Destroy', book, confirm: 'Are you sure?', method: :delete %></td>
